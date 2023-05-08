@@ -14,7 +14,7 @@
 int	ft_perror(char *str)
 {
 	perror(str);
-	exit(EXIT_FAILURE);
+	exit(1);
 }
 
 char	**split_path(char **envp)
